@@ -1,0 +1,9 @@
+<%= simple_form_for(@task) do |f| %>
+  <%= f.label :Title %>
+  <%= f.input :title %>
+  <%= f.label :Details %>
+  <%= f.input :details %>
+  <%= f.label :Completed %>
+  <%= f.input :completed %>
+  <%= f.submit  %>
+<% end %>
